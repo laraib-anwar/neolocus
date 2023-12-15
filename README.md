@@ -18,9 +18,10 @@ I have tried to make the project more modular by breaking into components which 
 #IntereactiveImage component is used as the main screen where all the child components are used.
 
 ##Other notable points worth mentioning:
-I have used camelcasing
-functional components
-redux library
-styled-components
-I have also added comments where I found commenting should be necessary
+I have used camelcasing,
+functional components,
+redux library,
+styled-components.
+
+I have also added comments where I found commenting should be necessary.
 
