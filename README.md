@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+##State Manangement
+The state management library which has been used in this project is redux.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##Styling Convention used
+I have made use of  styled-components library for styling in react.
 
-## Available Scripts
+##Reusable Components
+I have tried to make the project more modular by breaking into components which can be used in other projects as well.
 
-In the project directory, you can run:
+#NavbarContainer component is used for navigation bar in the project. It can be used by simply using the component in the other project and by simply passing the values as props.
 
-### `npm start`
+#CirculatImage component is used to display the interactive fingertips. Just use this component and pass values as props for different styling properties for the ciruclar image.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#CustomButton component is used for buttons in this project. Pass the event as well as other important data as props, the event can then be handled in the parent component. The color and size of the buttons can be directly changed.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#ContainerWithHotspot compoenent for showing the details of the output Image. It can be imported in any projects where circular and rectangular box is required.
 
-### `npm test`
+#IntereactiveImage component is used as the main screen where all the child components are used.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##Other notable points worth mentioning:
+I have used camelcasing
+functional components
+redux library
+styled-components
+I have also added comments where I found commenting should be necessary
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
